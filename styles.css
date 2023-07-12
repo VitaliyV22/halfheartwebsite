@@ -1,9 +1,6 @@
 * {
 background-color:beige;
 color:rgb(0, 0, 0) ;
-
-
-
 }
 .logo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -16,8 +13,6 @@ color:rgb(0, 0, 0) ;
 }
 
 #logos {
-  /*  border-style: solid;
-    border-radius: 100px;*/
     padding: 20px;
     
 }
@@ -35,18 +30,22 @@ color:rgb(0, 0, 0) ;
 
 }
 
-  /* .menu {
-    font-family: Urbanist;
- list-style-type: none;
-    font-weight: bold;
-    float: left;
-    font-size: 25px;
+.flex-container {
+    display: flex;
+    
+    
+      
 }
-/*li {
-    margin: 20px;
-    margin-left: 0px;
-    border-style: solid;
-}
-/*hr.solid {
-    border-top: 1px solid black;
+.flex-container div {
+    
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    
+   
   }
+
+
+ 
+    
+  
