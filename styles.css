@@ -32,17 +32,16 @@ color:rgb(0, 0, 0) ;
 
 .flex-container {
     display: flex;
+    display: wrap;
+    flex-direction: row;
     
-    
-      
+    gap: 9px;
 }
 .flex-container div {
     
-    flex-direction: column;
-    width: 100%;
+    flex-wrap: wrap;
     text-align: center;
-    
-   
+    flex: 1;
   }
 
 
