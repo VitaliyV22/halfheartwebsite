@@ -3,15 +3,31 @@ background-color:beige;
 color:rgb(0, 0, 0) ;
 }
 .logo {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Urbanist;
     font-weight: bold;
-    font-size: 55px;
+    font-size: 70px;
 }
 .logo2 {
     margin: 0px;
     font-family: Jost;
 }
 
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    font-family: Urbanist;
+    
+}
+
+h1{
+    font-size: 34px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+}
 #logos {
     padding: 20px;
     
@@ -30,20 +46,78 @@ color:rgb(0, 0, 0) ;
 
 }
 
-.flex-container {
+.flex-container-1 {
     display: flex;
     display: wrap;
     flex-direction: row;
     
     gap: 9px;
 }
-.flex-container div {
+.flex-container-1 div {
     
     flex-wrap: wrap;
     text-align: center;
     flex: 1;
   }
 
+  .flex-container-2 {
+    display: flex;
+    display: wrap;
+    flex-direction: row;
+    
+    gap: 9px;
+}
+.flex-container-2 div {
+    
+    flex-wrap: wrap;
+    text-align: center;
+    flex: .2;
+  }
+
+  .flex-container-3 {
+    display: flex;
+    display: wrap;
+    flex-direction: row;
+    
+    gap: 9px;
+}
+.flex-container-3 div {
+    
+    flex-wrap: wrap;
+    text-align: center;
+    flex: .2;
+  }
+
+  .flex-container-4 {
+    display: flex;
+    display: wrap;
+    flex-direction: row;
+    
+    gap: 9px;
+}
+.flex-container-4 div {
+    
+    flex-wrap: wrap;
+    text-align: center;
+    flex: 1;
+  }  
+
+
+  .flex-container-5 {
+    display: flex;
+    display: wrap;
+    flex-direction: row;
+    
+    gap: 9px;
+}
+.flex-container-5 div {
+    
+    flex-wrap: wrap;
+    text-align: center;
+    flex: .2;
+  }  
+
+  
 
  
     
