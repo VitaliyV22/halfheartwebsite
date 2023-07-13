@@ -164,5 +164,30 @@ height: 562px;
 .txt-1{
     position: absolute;
 }
-    
-  
+
+.email {
+    text-align: center;
+}
+
+.flex-social {
+
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+}
+.flex-social div {
+
+    padding: 20px;
+    font-size: 30px;
+    font-family: Urbanist;
+    font-weight: bold;
+}
+
+.socials {
+    font-size: 50px;
+    font-family: Urbanist;
+    font-weight: bold;
+    text-align: center;
+    border: solid black;
+}
