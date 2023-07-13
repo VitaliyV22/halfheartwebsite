@@ -1,5 +1,6 @@
 * {
-background-color:beige;
+/*background-color:beige;*/
+background-color: #f7f7f7;
 color:rgb(0, 0, 0) ;
 }
 .logo {
@@ -122,17 +123,29 @@ h1{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    gap: 20px;
+    justify-content: center;
     
-    gap: 9px;
-    width: 100%;
-    align-items: center;
     
 }
 
+.flex-container-photos div {
     
-img    {
+    
+    padding: 0px;
+    margin: px;
+    
+    
+       
+}
+
+    
+.dark {
+width: 750px;
+height: 562px;
    
 }
+   
 
     
 
