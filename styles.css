@@ -116,16 +116,40 @@ h1{
     text-align: center;
     flex: .2;
   }  
+
+
 .flex-container-photos {
     display: flex;
-    display: wrap;
+    flex-wrap: wrap;
     flex-direction: row;
-}
-.flex-container-photos div {
-    width: 500px;
+    
+    gap: 9px;
+    width: 100%;
+    align-items: center;
     
 }
 
- 
+    
+img    {
+   
+}
+
+    
+
+.footer {
+    text-align: center;
+    font-size: 10px;
+    
+}
+.txt-1 {
+    position: relative;
+    font-size: 50px;
+    margin-top: 200px;
+    
+}
+
+.txt-1{
+    position: absolute;
+}
     
   
