@@ -118,35 +118,24 @@ h1{
     flex: .2;
   }  
 
-
 .flex-container-photos {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 20px;
+    display: wrap;
+    flex-wrap: wrap ;
     justify-content: center;
-    
-    
+ 
+
 }
 
-.flex-container-photos div {
-    
-    
-    padding: 0px;
-    margin: px;
-    
-    
-       
-}
-
-    
-.dark {
-width: 750px;
-height: 562px;
+.flex-container-photos div img {
+    height: 250px;
    
 }
-   
 
+.playlist {
+    background-color: black
+    margin: 1110px;
+}
     
 
 .footer {
@@ -175,6 +164,7 @@ height: 562px;
     flex-wrap: wrap;
     text-align: center;
     flex-direction: column;
+    margin: 55px;
 }
 .flex-social div {
 
@@ -182,6 +172,7 @@ height: 562px;
     font-size: 30px;
     font-family: Urbanist;
     font-weight: bold;
+    
 }
 
 .socials {
@@ -191,3 +182,12 @@ height: 562px;
     text-align: center;
     border: solid black;
 }
+
+#insta-logo,#spotify-logo, #band-logo, #sound-logo  {
+
+    position: absolute;
+    margin-left:-50px;
+    height: 45px;
+    width: 45px;
+}
+
